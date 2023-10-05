@@ -4,11 +4,9 @@ largest = None
 smallest = None
 
 # Prompt the user to enter 3 integer values
-
 firstNumber = input("type first number")
 secondNumber = input("type second number")
 thirdNumber = input("type third number")
-
 
 # Write assignments, and necessary if else statements here as appropriate
 
@@ -31,8 +29,6 @@ elif secondNumber < thirdNumber:
         smallest = secondNumber
 else:
     smallest = thirdNumber
-
-
 
 # Output largest and smallest number.
 print("The largest value is " + str(largest))
